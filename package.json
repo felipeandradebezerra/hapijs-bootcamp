@@ -1,0 +1,39 @@
+{
+  "name": "hapijs-bootcamp",
+  "version": "1.0.0",
+  "description": "docker run",
+  "main": "strategy.js",
+  "scripts": {
+    "test:prod": "cross-env NODE_ENV=prod npm t",
+    "test": "mocha src/tests/*.js",
+    "test:watch": "mocha src/tests/*.js -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.1.0",
+    "@hapi/inert": "^7.0.0",
+    "@hapi/validate": "^2.0.0",
+    "@hapi/vision": "^7.0.0",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "hapi-auth-jwt2": "^10.2.0",
+    "inert": "^5.1.3",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.28.0",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^21.0.0",
+    "@types/hapi__inert": "^5.2.4",
+    "@types/hapi__vision": "^5.5.4",
+    "@types/node": "^18.11.18",
+    "hapi-swagger": "^15.0.0",
+    "mocha": "^10.2.0"
+  }
+}
